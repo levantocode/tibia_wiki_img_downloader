@@ -22,7 +22,8 @@ defmodule TibiaWikiImgDownloader.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.8"},
-      {:floki, "~> 0.32.0"}
+      {:floki, "~> 0.32.0"},
+      {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
     ]
   end
 end
