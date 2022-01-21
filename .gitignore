@@ -27,3 +27,7 @@ tibia_wiki_img_downloader-*.tar
 
 # All images actually downloaded
 /images_downloaded/*
+
+tibia_wiki_img_downloader.iml
+
+.idea
